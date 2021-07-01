@@ -34,7 +34,7 @@ Your users should be able to:
 ![Complete solution for the Desktop version preview of the Stats preview card component coding challenge](screenshots/desktop--version.JPG)
 
 
-![Complete solution for the Mobile version preview of the Stats preview card component coding challenge](screenshots/mobile--version.JPG)
+![Complete solution for the Mobile version preview of the Stats preview card component coding challenge](screenshots/mobile--version.jpeg)
 
 ### Links
 
