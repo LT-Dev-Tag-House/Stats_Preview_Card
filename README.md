@@ -39,7 +39,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://lt-dev-tag-house.github.io/Stats_Preview_Card/](https://lt-dev-tag-house.github.io/Stats_Preview_Card/)
 
 ## My process
 
