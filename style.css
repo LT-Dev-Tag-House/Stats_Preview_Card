@@ -1,0 +1,155 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 1.3rem;
+}
+
+.bg-dark {
+    background-color: hsl(233, 47%, 7%) !important;
+}
+
+.container {
+    width: 65vw;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+
+.card-img {
+    margin-top: 3rem;
+    margin-bottom: -0.35rem;
+    width: 100%;
+    min-height: 30vh;
+    background-image:url("images/image-header-mobile.jpg");
+    background-color: #aa5cdb;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    filter: contrast(.9);
+}
+
+
+.hero--text {
+    background-color: hsl(244, 38%, 16%);
+    padding: 3rem 1rem;
+}
+
+.hero--title {
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.hero--title span {
+    color: hsl(277, 64%, 61%);
+}
+
+.hero--p-text {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.55;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.stats {
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.stats span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.25rem;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: hsla(0, 0%, 100%, 0.6);
+    letter-spacing: 2px;
+}
+
+@media (min-width: 279px) and (max-width: 930px) {
+    .container {
+        width: 55%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1500px){
+    
+    .container {
+        max-width: 450px;
+    }
+
+    .hero--title{
+        font-size: 18px;
+    }
+
+    .hero--title, .hero--p-text {
+        text-align:start;
+    }
+
+    .hero--text {
+        padding: 1.25rem 3.55rem;
+    }
+
+    .hero--p-text {
+        font-size: 16px;
+    }
+
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card-img {
+        height: 55vh;
+    }
+}
+
+@media (min-width: 1500px) {
+    .d-flex {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .hero--title{
+        font-size: 25px;
+    }
+
+    .hero--title, .hero--p-text {
+        text-align:start;
+    }
+
+    .hero--text {
+        padding: 3rem 5rem;
+        margin-top: 12rem;
+        min-width: 58%;
+    }
+
+    .hero--p-text {
+        font-size: 20px;
+    }
+
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .card-img {
+        margin-top: 12rem;
+        margin-bottom: 0rem;
+        min-width: 55%;
+        min-height: 30vh;
+    }
+
+    
+
+}
