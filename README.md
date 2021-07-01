@@ -38,7 +38,7 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/profile/LT-WebDev/solutions](https://www.frontendmentor.io/profile/LT-WebDev/solutions)
 - Live Site URL: [https://lt-dev-tag-house.github.io/Stats_Preview_Card/](https://lt-dev-tag-house.github.io/Stats_Preview_Card/)
 
 ## My process

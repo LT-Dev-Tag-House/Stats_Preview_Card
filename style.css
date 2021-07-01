@@ -7,16 +7,15 @@ body {
     font-family: 'Inter', sans-serif;
     color: #FFF;
     font-size: 1.3rem;
-}
-
-.bg-dark {
     background-color: hsl(233, 47%, 7%) !important;
 }
+
 
 .container {
     width: 65vw;
     margin: 0 auto;
     max-width: 1440px;
+    
 }
 
 
@@ -31,12 +30,16 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     filter: contrast(.9);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 
 .hero--text {
     background-color: hsl(244, 38%, 16%);
     padding: 3rem 1rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .hero--title {
