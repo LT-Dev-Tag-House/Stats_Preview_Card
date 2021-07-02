@@ -30,14 +30,14 @@ body {
     background-repeat: no-repeat;
     background-blend-mode: multiply;
     filter: contrast(.9);
-    border-top-right-radius: 20px;
+    border-top-right-radius: 10px;
 }
 
 
 .hero--text {
     background-color: hsl(244, 38%, 16%);
     padding: 3rem 1rem;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 10px;
 }
 
 .hero--title {
@@ -81,11 +81,11 @@ body {
     }
 
     .hero--text {
-        border-bottom-right-radius: 20px;
+        border-bottom-right-radius: 15px;
     }
 
     .card-img {
-        border-top-left-radius: 20px;
+        border-top-left-radius: 10px;
     }
 }
 
@@ -105,7 +105,7 @@ body {
 
     .hero--text {
         padding: 1.25rem 3.55rem;
-        border-bottom-right-radius: 20px;
+        border-bottom-right-radius: 10px;
     }
 
     .hero--p-text {
@@ -120,7 +120,7 @@ body {
 
     .card-img {
         height: 55vh;
-        border-top-left-radius: 20px;
+        border-top-left-radius: 10px;
     }
 }
 
@@ -142,7 +142,7 @@ body {
         padding: 3rem 5rem;
         margin-top: 12rem;
         min-width: 58%;
-        border-top-left-radius: 20px;
+        border-top-left-radius: 10px;
     }
 
     .hero--p-text {
@@ -160,8 +160,8 @@ body {
         margin-bottom: 0rem;
         min-width: 55%;
         min-height: 30vh;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
     }
 
     
